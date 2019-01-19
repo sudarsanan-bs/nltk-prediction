@@ -1,5 +1,5 @@
 # nltk-prediction
-Given a training set of male and female names, predict the gender of a name.
+Given a training set of Indian male and female names, predict the gender of a name not present in the training set.
 
 Makes use of Python library of nltk.
 
