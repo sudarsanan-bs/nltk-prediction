@@ -19,12 +19,11 @@ Mayank is a male
 =============================
 
 Name: 'Roshni'
+
 Roshni is a female
 
 
 # References
 
 https://pythonspot.com/category/nltk/
-
-https://radimrehurek.com/gensim/
 
