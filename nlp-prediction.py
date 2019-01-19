@@ -1,6 +1,5 @@
 import os
 import nltk
-from nltk.corpus import names
 
 #***************************************
 # Author: Sudarsanan B S
