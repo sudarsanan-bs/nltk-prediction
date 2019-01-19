@@ -2,6 +2,10 @@ import os
 import nltk
 from nltk.corpus import names
 
+#***************************************
+# Author: Sudarsanan B S
+#***************************************
+
 # Classifier engine to predict if a given name is that of a male or that of a female
 # Feature set used is the last letter of name
 
