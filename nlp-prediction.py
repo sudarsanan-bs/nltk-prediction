@@ -16,7 +16,6 @@ def gender_features(word):
 # Load data and training 
 
 path = os.getcwd()
-path = os.path.join(path,'nltk') 
 male = os.path.join(path ,'male.txt')
 female = os.path.join(path ,'female.txt')
 
