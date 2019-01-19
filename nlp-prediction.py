@@ -2,10 +2,10 @@ import os
 import nltk
 from nltk.corpus import names
 
-#Classifier engine to predict if a given name is that of a male or that of a female
-#Feature set used is the last letter of name
+# Classifier engine to predict if a given name is that of a male or that of a female
+# Feature set used is the last letter of name
 
-#Feature extraction method, returns last letter of name
+# Feature extraction method, returns last letter of name
 def gender_features(word):
     return {'last_letter': word[-1]}
 
@@ -26,7 +26,7 @@ names = ([(name, 'male') for name in male_lines] +
 featuresets = [(gender_features(n), g) for (n,g) in names]
 train_set = featuresets
 
-#Train using Naive Bayes Classifier
+# Train using Naive Bayes Classifier
 classifier = nltk.NaiveBayesClassifier.train(train_set)
 
 # Predict
